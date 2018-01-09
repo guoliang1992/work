@@ -9,9 +9,13 @@ data（所有字段间以\t分割）:
 爬取下来的数据，也是算法需要依据的数据
 movie.dat
 	movieid	moviename	评分	连接url
+	实例：
+		26799731	请以你的名字呼唤我	9.0	https://movie.douban.com/subject/26799731/
 
 ratings.sort:
 	userid	movieid	评分
+	grantyoung	26799731	3
 
 ratings 爬取下来的数据
 	电影id 用户主页url	用户名称	评分
+	26799731	https://www.douban.com/people/grantyoung/	简末	3
