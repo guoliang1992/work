@@ -1,0 +1,17 @@
+crawer_bin:
+目录下是爬取豆瓣网站数据的代码
+
+bin/itemCF.py
+是基于item推荐的代码
+tmp:
+目录下是爬取电影用户的原始url
+data（所有字段间以\t分割）:
+爬取下来的数据，也是算法需要依据的数据
+movie.dat
+	movieid	moviename	评分	连接url
+
+ratings.sort:
+	userid	movieid	评分
+
+ratings 爬取下来的数据
+	电影id 用户主页url	用户名称	评分
